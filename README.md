@@ -1,6 +1,6 @@
 # AI-FIGBOT
 Giafigures game variant developed for the <strong>Artificial Intelligence</strong> class using a Lego EV3 Built Robot.
-* IA-FIG-1.py -> 1st Phase -> The Robot moves all directions, rotates and does random routes
+* IA-FIG-1.py -> 1st Phase -> The Robot moves all directions, rotates and does random routes according to the finding path algorithm A*
 
 ## Index
 * Lego EV3 Robot Build
