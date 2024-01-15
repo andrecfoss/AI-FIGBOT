@@ -9,7 +9,7 @@ Giafigures game variant developed for the <strong>Artificial Intelligence</stron
 * Game showcase on the EV3 Robot
 
 ### Lego EV3 Robot Build
-Starting on this project, we used this EV3 guide as a basis (link):
+Starting on this project, we used this EV3 guide as a basis for the robot construction (link):
 https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt8b300493e30608e9/5f8801dfb8b59a77a945d13c/ev3-rem-color-sensor-down-driving-base.pdf?locale=en-us
 
 After making a few adjustments on the construction during this project, here is the final result of the EV3 build:
