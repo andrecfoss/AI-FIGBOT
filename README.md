@@ -40,8 +40,34 @@ We decided to lable each symbol for the EV3:
     <th>Green</th>  
   </tr>
 </table>
-NOTE: The Number 0 on the grid represents a free position which means does not have a block on that position. 
-The Number 1 was not used in this representation.
+NOTE: <br>
+Number 0: Free position on the Grid <br>
+<s>Number 1: Not used</s> <br>
+
+<p> <strong>The main goal</strong> of this game is to form complete figures using the same blocks for each figure. There are small figures that can be formed but also bigger figures.</p>
+
+#### Small Figures
+
+![IA - Small Figures](https://github.com/andrecfoss/AI-FIGBOT/assets/134842813/e50366cc-615f-486f-bbff-97c169c7af4a)
+
+
+#### Bigger Figures
+
+![IA - Bigger Figures](https://github.com/andrecfoss/AI-FIGBOT/assets/134842813/0d73bc5a-ba7e-433d-8a4a-74864168c20a)
+
+For every figure that is formed on the Grid, will have this sequence:
+
+![IA - Game Sequence](https://github.com/andrecfoss/AI-FIGBOT/assets/134842813/740b5fae-232b-4b76-877c-ead1888217db)
+
+Every time the EV3 forms a complete figure, it eliminates from the grid and retrieves points. <br>
+NOTE: The Game sequence has a limited amount of blocks, at the end of the game there can be blocks left on the grid which result of figures that were not completely formed.
+
+#### Point System
+For every figure that is completed and eliminated from the grid, we have a point system that being:
+* The points for every figure formed consists of the formula <strong>2^(Number of blocks to form figure)</strong>.
+  - For example, if we form a Small Figure for the + there is 5 blocks, so 2^5 = 32 points.
+* At the end of the game, if there are blocks left on the grid we use the following formula:
+  - <strong>2^(Number of blocks to form figure) - 2^(Number of blocks left on the grid)</strong>
 
 <hr>
 
