@@ -89,3 +89,19 @@ The main changes we made where:
   - The Gyro sensor on the motors are less precise, but helps on the coding side of the EV3, saving a lot of time trying to debug code issues.
     
 <hr>
+
+## What kind of Heuristics where developed for this Game?
+
+Before we started creating the Heuristics, we had in mind this Rule, which was to compare 2 heuristics on this Game, based on these goals:
+- One Heuristic that could deliver the most points, but take more risks
+  - For example, there could be positions on the grid where the EV3 could not place blocks because it would have been blocked by others blocks already placed.
+- Another Heuristic that delivered less points, but would safely run the whole block sequence to form the figures, without blocking the EV3 on the Grid.
+
+SO, with these goals in mind, here are the Two Heuristics we developed:
+
+### Predefined Maps
+
+### Search Tree
+
+We also developed a Third Heuristic that calculates the path where the next block is going to be placed on the Grid. For that we used the A* Algorithm as a basis.
+
