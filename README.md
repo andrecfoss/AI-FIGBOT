@@ -3,6 +3,7 @@ Giafigures game variant developed for the <strong>Artificial Intelligence</stron
 <br> Graded <strong>17</strong>/20.
 
 * IA-FIG-1.py -> 1st Phase -> The Robot moves all directions, rotates and does random routes according to the finding path algorithm A*
+* IA-FIG-2.py -> 2nd Phase -> Implementation of The Heuristics for the EV3 to Play the Games (Predefined Maps & Search Tree)
 
 ## Index
 * How this Game Works
