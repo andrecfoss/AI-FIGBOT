@@ -1,4 +1,4 @@
-<div align="center">
+
   
 # AI-FIGBOT
 Giafigures game variant developed for the <strong>Artificial Intelligence</strong> class using a Lego EV3 Built Robot.
@@ -107,5 +107,3 @@ SO, with these goals in mind, here are the Two Heuristics we developed:
 ### Search Tree
 
 We also developed a Third Heuristic that calculates the path where the next block is going to be placed on the Grid. For that we used the A* Algorithm as a basis.
-
-</div>
